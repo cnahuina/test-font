@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+        font-family: 'Rimac-Display';
+        src:  url('Rimac-Display.woff') format('woff')
+        }
+        @font-face {
+        font-family: 'BRSonoma';
+        src:  url('BRSonoma-Bold.woff') format('woff')
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1.brsonoma{
+            font-family: 'BRSonoma';
+            font-size: 72px;
+            line-height: 72px;
+            background-color: #ccc;
+        }
+        h1.display{
+            font-family: 'Rimac-Display';
+            font-size: 72px;
+            line-height: 72px;
+            background-color: #ccc;
+        }
+        h1.serif{
+            font-family: 'sans-serif';
+            font-size: 72px;
+            line-height: 72px;
+            background-color: #ccc;
+            font-weight: bold;
+        }
+        span.brsonoma{
+            font-family: 'BRSonoma';
+            display: block;
+            font-size: 72px;
+            background-color: #808080;
+            margin-top: 8px;
+        }
+        span.display{
+            font-family: 'Rimac-Display';
+            display: block;
+            font-size: 72px;
+            background-color: #808080;
+            margin-top: 8px;
+        }
+        span.serif{
+            font-family: 'sans-serif';
+            font-weight: bold;
+            display: block;
+            font-size: 72px;
+            background-color: #808080;
+            margin-top: 8px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="dflex">
+        <h1 class="display">Juntos, en cada paso</h1>
+        <span class="display">Juntos, en cada paso </span>
+        <br>
+        <h1 class="brsonoma">Juntos, en cada paso</h1>
+        <span class="brsonoma">Juntos, en cada paso</span>
+        <br>
+        <h1 class="serif">Juntos, en cada paso</h1>
+        <span class="serif">Juntos, en cada paso</span>
+    </div>
+</body>
+</html>
