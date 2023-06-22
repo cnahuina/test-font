@@ -23,11 +23,25 @@
             line-height: 72px;
             background-color: #ccc;
         }
+        h1.display-sinletter{
+            font-family: 'Rimac-Display';
+            font-size: 72px;
+            line-height: 72px;
+            background-color: #ccc;
+        }
         h1.display{
             font-family: 'Rimac-Display';
             font-size: 72px;
             line-height: 72px;
             background-color: #ccc;
+            letter-spacing: 0px;
+        }
+        h1.display-letter{
+            font-family: 'Rimac-Display';
+            font-size: 72px;
+            line-height: 72px;
+            background-color: #ccc;
+            letter-spacing: -1px;
         }
         h1.serif{
             font-family: 'sans-serif';
@@ -63,7 +77,9 @@
 </head>
 <body>
     <div class="dflex">
-        <h1 class="display">Juntos, en cada paso</h1>
+        <h1 class="display-sinletter">Juntos, en cada paso(sin letter)</h1><br>
+        <h1 class="display">Juntos, en cada paso</h1><br>
+        <h1 class="display-letter">Juntos, en cada paso(-1px letter)</h1><br>
         <span class="display">Juntos, en cada paso </span>
         <br>
         <h1 class="brsonoma">Juntos, en cada paso</h1>
